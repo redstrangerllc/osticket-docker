@@ -7,7 +7,7 @@ RUN apt-get update && \
     rm -rv /var/lib/apt
 
 # Set upsteam repo
-ENV GIT_REPO=https://github.com/osTicket/osTicket
+ENV GIT_REPO=https://github.com/redstrangerllc/osTicket
 
 # Scripts
 COPY bin /bin
